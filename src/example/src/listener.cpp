@@ -12,11 +12,11 @@ int main(int argc,char **argv)
 {
     ros::init(argc,argv,"listener");
     ros::NodeHandle nh;
-    ros::Subscriber listener=\
-         nh.subscribe("answerdata",1,catch_the_answer);
+    ros::Subscriber listener=nh.subscribe("answerdata",1,catch_the_answer);
     ros::Rate loop_rate(30);
     while(nh.ok())
     {
+        ROS_INFO("talker send answer=%d",ans);
         ros::spinOnce();
         loop_rate.sleep();
     }
