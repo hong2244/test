@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hong2244/test/src
+CMAKE_SOURCE_DIR = /home/e219/test/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hong2244/test/build
+CMAKE_BINARY_DIR = /home/e219/test/build
 
 # Utility rule file for example_gencpp.
 
@@ -63,10 +63,10 @@ example/CMakeFiles/example_gencpp.dir/build: example_gencpp
 .PHONY : example/CMakeFiles/example_gencpp.dir/build
 
 example/CMakeFiles/example_gencpp.dir/clean:
-	cd /home/hong2244/test/build/example && $(CMAKE_COMMAND) -P CMakeFiles/example_gencpp.dir/cmake_clean.cmake
+	cd /home/e219/test/build/example && $(CMAKE_COMMAND) -P CMakeFiles/example_gencpp.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/example_gencpp.dir/clean
 
 example/CMakeFiles/example_gencpp.dir/depend:
-	cd /home/hong2244/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hong2244/test/src /home/hong2244/test/src/example /home/hong2244/test/build /home/hong2244/test/build/example /home/hong2244/test/build/example/CMakeFiles/example_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e219/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e219/test/src /home/e219/test/src/example /home/e219/test/build /home/e219/test/build/example /home/e219/test/build/example/CMakeFiles/example_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/CMakeFiles/example_gencpp.dir/depend
 
